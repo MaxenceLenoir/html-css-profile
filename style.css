@@ -32,7 +32,6 @@ small {
 }
 
 .container {
-  width: 920px;
   margin: 20px 10%;
 }
 
@@ -142,4 +141,10 @@ small {
   border: #ff7d00;
   border-width: 2px;
   border-style: solid;
+}
+
+@media(max-width: 800px) {
+  .img-circle {
+    visibility: hidden;
+  }
 }
