@@ -1,13 +1,20 @@
 body {
-  background: #F7F9FC;
-  color: #575F7D;
+  background: #ffecd1;
+  color: #ffecd1;
   font-family: 'Lora', serif;
   font-size: 17px;
   font-weight: lighter;
 }
 
+h1 {
+  font-weight: bold;
+  color: #ff7d00;
+  font-family: roboto, serif;
+}
+
 h2 {
-  color:#9DAD6F;
+  color:#78290f;
+  font-family: roboto, sans-serif;
 }
 
 ul {
@@ -15,13 +22,13 @@ ul {
   padding: 0;
 }
 
-li {
-  display: inline;
-}
-
 i {
   font-size: 50px;
   padding: 10px;
+}
+
+small {
+  font-size: 16px;
 }
 
 .container {
@@ -31,14 +38,17 @@ i {
 
 .card {
   text-align: center;
-  background-color:white;
+  background: linear-gradient(#15616d, #96d2db);
   margin-top: 20px;
   padding: 40px;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 10px;
 }
 
 .img-circle {
   border-radius: 50%;
+  position: absolute;
+  top: 40px; left: 70px;
 }
 
 .my-btn {
@@ -47,7 +57,7 @@ i {
   color:#15616d;
   font-weight: 600;
   padding: 20px 40px;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 
 .my-btn:hover {
@@ -62,11 +72,51 @@ i {
 
 .my-link:hover {
   color: black;
-  color:white;
 }
 
 #introduction {
   margin-bottom: 50px;
+  text-align: justify;
+}
+
+.description {
+  color:#001524;
+  width: 100px;
+  text-align: center;
+}
+
+.list-inline {
+  display: inline;
+}
+
+.travel-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.element {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.patagonia-dark {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: #001524;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.patagonia-orange {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: #ff7d00;
+  border-width: 2px;
+  border-style: solid;
 }
 
 @media (max-width: 960px) {
