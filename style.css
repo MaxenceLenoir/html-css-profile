@@ -33,7 +33,7 @@ small {
 
 .container {
   width: 920px;
-  margin: 20px auto;
+  margin: 20px 10%;
 }
 
 .card {
@@ -48,7 +48,7 @@ small {
 .img-circle {
   border-radius: 50%;
   position: absolute;
-  top: 40px; left: 70px;
+  top: 8%; left: 20%;
 }
 
 .my-btn {
@@ -142,23 +142,4 @@ small {
   border: #ff7d00;
   border-width: 2px;
   border-style: solid;
-}
-
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
 }
