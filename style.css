@@ -43,24 +43,26 @@ i {
 
 .my-btn {
   text-decoration: none;
-  background-color: #6B72E1;
-  color:white;
+  background-color: #ff7d00;
+  color:#15616d;
   font-weight: 600;
   padding: 20px 40px;
   border-radius: 4px;
 }
 
 .my-btn:hover {
-  background-color: black
+  background-color: black;
+  color:white;
 }
 
 .my-link {
   text-decoration: none;
-  color: #6B72E1;
+  color: #ff7d00;
 }
 
 .my-link:hover {
   color: black;
+  color:white;
 }
 
 #introduction {
